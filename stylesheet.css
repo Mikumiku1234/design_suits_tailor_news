@@ -11,9 +11,6 @@ a {
   text-decoration: none;
 }
 
-.clear {
-  clear: left;
-}
 
 .container {
   max-width: 1170px;
@@ -24,44 +21,20 @@ a {
 
 .top-wrapper {
   padding: 150px 0 100px 0;
-  background-image: url("top.jpg");
+  background-image: url("2.jpg");
   background-size: cover;
   color: white;
+  margin: 0 auto;
   text-align: center;
+  height: 1000px;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
   font-size: 40px;
   letter-spacing: 5px;
   font-weight: normal;
   font-family: Monotype Corsiva;
 }
-
-.top-wrapper p {
-  font-size: 30px;
-  opacity: 0.7;
-  font-family: serif;
-}
-
-.message p{
-  font-size: 15px;
-  opacity: 0.7;
-  font-family: serif;
-}
-
-.accent{
-  color: red;
-  font-size: 18px;
-}
-
-.daihyo{
-  font-family: 'HGP行書体';
-  color: white;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 
 .btn-wrapper p {
   margin: 10px 0;
@@ -139,70 +112,6 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* menu-iconのCSSを貼り付けてください */
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  /* displayをnoneに指定してください */
-  display: none;
-}
-
-
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-
 footer img {
   width: 100px;
 }
@@ -216,7 +125,7 @@ footer {
   padding-top: 20px;
   height: 125px;
   width: 100%;
-  background-color: #848484;
+  background-color: rgba(34, 49, 52, 0.9);
 }
 
 .footer-left{
